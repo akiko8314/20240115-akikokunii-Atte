@@ -1,0 +1,83 @@
+.header {
+    background: #fff;
+}
+
+.header__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin:50px 20px;
+}
+
+.header__logo {
+    text-decoration: none;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header__nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.header__nav--list {
+    margin: 0 40px;
+    padding: 0 20px;
+}
+
+.header__nav--list a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #000000
+}
+
+.logout__button {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-size: 28px;
+    color: #000000
+}
+
+main{
+    padding: 5% 0;
+}
+
+.work__title {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    font-weight: 100;
+}
+
+.work__button-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+.work__button,
+.break__button {
+    background-color: #fff;
+    padding: 5% 15%;
+    margin: 50px 90px ;
+    text-align: center;
+    border: none;
+}
+
+.work__button button,
+.break__button button {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    border: none;
+}
